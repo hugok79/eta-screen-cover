@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <rect style="stroke: rgb(0, 0, 0); stroke-width: 7px; fill: rgb(255, 255, 255);" x="6" y="6" width="500" height="500" rx="14" ry="14"/>
+  <rect x="28.052" y="391.284" width="90" height="90" rx="7" ry="7" style="fill: rgb(255, 0, 0); transform-origin: 75px 436.3px;"/>
+  <rect x="208.997" y="203.451" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
+  <rect x="301.587" y="302" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
+  <rect x="397.718" y="203.451" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
+  <rect x="301.587" y="102.622" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 32px; white-space: pre; transform-origin: 75px 432.3px;" x="61.107" y="448.636">X</text>
+</svg>
