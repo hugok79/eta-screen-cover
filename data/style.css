@@ -1,0 +1,17 @@
+window {
+    -GtkWidget-window-dragging: true;
+}
+
+.dark-background,
+.dark-background headerbar {
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.white-background,
+.white-background headerbar {
+    background: white;
+    color: black;
+    border-color: white;
+}
