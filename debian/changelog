@@ -1,3 +1,10 @@
+eta-ekran-karartma (0.1.1) UNRELEASED; urgency=medium
+
+  [ Emin Fedar ]
+  * feat: increase resize area, xfce window border fix
+
+ -- Pardus <emin.fedar@pardus.org.tr>  Tue, 23 Jul 2024 10:57:44 +0300
+
 eta-ekran-karartma (0.1.0) ondokuz; urgency=medium
 
   [ Emin Fedar ]
