@@ -1,11 +1,192 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <defs/>
-  <rect style="stroke: rgb(0, 0, 0); stroke-width: 7px; fill: rgb(255, 255, 255);" x="6" y="6" width="500" height="500" rx="14" ry="14"/>
-  <rect x="28.052" y="391.284" width="90" height="90" rx="7" ry="7" style="fill: rgb(255, 0, 0); transform-origin: 75px 436.3px;"/>
-  <rect x="208.997" y="203.451" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
-  <rect x="301.587" y="302" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
-  <rect x="397.718" y="203.451" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
-  <rect x="301.587" y="102.622" width="90" height="90" rx="7" ry="7" style="fill: rgb(41, 41, 41);"/>
-  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 32px; white-space: pre; transform-origin: 75px 432.3px;" x="61.107" y="448.636">X</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="64"
+   height="64"
+   sodipodi:docname="eta-black.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3043"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3039"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3035"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3031"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3027"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3023"
+       is_visible="true" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3068">
+      <feFlood
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3070" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3072" />
+      <feOffset
+         dx="0"
+         dy="8"
+         result="offset"
+         id="feOffset3074" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3076" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3040">
+      <feFlood
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3042" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3044" />
+      <feOffset
+         dx="0"
+         dy="12"
+         result="offset"
+         id="feOffset3046" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3048" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="11.313708"
+     inkscape:cx="27.504719"
+     inkscape:cy="18.46278"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.2"
+     d="m 4,50 0,2 c 0,1.662 1.338,3 3,3 l 50,0 c 1.662,0 3,-1.338 3,-3 l 0,-2 c 0,1.662 -1.338,3 -3,3 L 7,53 C 5.338,53 4,51.662 4,50 z"
+     id="path4" />
+  <rect
+     style="fill:#325f78"
+     width="44"
+     height="56"
+     x="-54"
+     y="-60"
+     rx="3"
+     ry="3"
+     transform="matrix(0,-1,-1,0,0,0)"
+     id="rect6" />
+  <rect
+     style="opacity:0.2"
+     width="36"
+     height="48"
+     x="-50"
+     y="-56"
+     rx="0"
+     ry="0"
+     transform="matrix(0,-1,-1,0,0,0)"
+     id="rect8" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.1;fill:#ffffff"
+     d="m 7,10 c -1.662,0 -3,1.338 -3,3 l 0,1 c 0,-1.662 1.338,-3 3,-3 l 50,0 c 1.662,0 3,1.338 3,3 l 0,-1 c 0,-1.662 -1.338,-3 -3,-3 L 7,10 z"
+     id="path10" />
+  <rect
+     style="fill:#000000;stroke-width:1.77331245"
+     id="rect34"
+     width="32"
+     height="26.625"
+     x="31.808058"
+     y="35.25"
+     ry="2.0927765" />
+  <g
+     transform="matrix(-0.00217171,-0.06219915,0.06021096,-0.00109793,32.903821,51.658561)"
+     style="fill:#268bd2"
+     id="g10"
+     inkscape:transform-center-x="0.27188943"
+     inkscape:transform-center-y="-0.53876631">
+    <path
+       inkscape:connector-curvature="0"
+       d="M 128,161.94141 94.058594,128 26.175781,195.88281 60.117188,229.82422 Z"
+       id="path2" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 112,240 H 16 v -96 z"
+       id="path4-3" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 128,94.058594 161.94141,128 229.82422,60.117188 195.88281,26.175781 Z"
+       id="path6" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 144,16 h 96 v 96 z"
+       id="path8" />
+  </g>
 </svg>
