@@ -148,7 +148,11 @@ class MainWindow:
         geometry = self.maximized_geometry
 
         # Window Decoration Borders margin
-        margin = 30
+        desktop_environment = os.environ.get("DESKTOP_SESSION")
+        if desktop_environment == "gnome":
+            margin = 0
+        else:
+            margin = 30
 
         self.window.resize(300, 300)
 
