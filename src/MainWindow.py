@@ -121,6 +121,9 @@ class MainWindow:
             Gdk.Screen.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_USER
         )
 
+        self.settings = Gtk.Settings.get_default()
+        self.settings.set_property("gtk-application-prefer-dark-theme", True)
+
     def show_ui(self):
         self.window.show_all()
 
@@ -133,9 +136,6 @@ class MainWindow:
         geometry = screen.get_monitor_workarea(monitor)
 
         self.maximized_geometry = geometry
-        print(
-            f"Maximized position and size: x={geometry.x}, y={geometry.y}, width={geometry.width}, height={geometry.height}"
-        )
 
     # CALLBACKS
     def btn_close_clicked(self, btn):
@@ -147,27 +147,42 @@ class MainWindow:
 
         geometry = self.maximized_geometry
 
+        # Window Decoration Borders margin
+        margin = 30
+
         self.window.resize(300, 300)
 
         def move_window(w, geometry):
+            new_pos = (0, 0)
+
             if direction == "up":
-                w.move(geometry.x, geometry.y)
+                new_pos = (geometry.x, geometry.y)
             elif direction == "down":
-                w.move(geometry.x, geometry.y + geometry.height / 2)
+                new_pos = (geometry.x, geometry.y + geometry.height / 2)
             elif direction == "left":
-                w.move(geometry.x, geometry.y)
+                new_pos = (geometry.x, geometry.y)
             elif direction == "right":
-                w.move(geometry.x + geometry.width / 2, geometry.y)
+                new_pos = (geometry.x + geometry.width / 2, geometry.y)
+
+            new_pos = (new_pos[0] + margin, new_pos[1] + margin)
+
+            w.move(new_pos[0], new_pos[1])
 
         def resize_window(w, geometry):
+            new_size = (0, 0)
+
             if direction == "up":
-                w.resize(geometry.width, geometry.height / 2)
+                new_size = (geometry.width, geometry.height / 2)
             elif direction == "down":
-                w.resize(geometry.width, geometry.height / 2)
+                new_size = (geometry.width, geometry.height / 2)
             elif direction == "left":
-                w.resize(geometry.width / 2, geometry.height)
+                new_size = (geometry.width / 2, geometry.height)
             elif direction == "right":
-                w.resize(geometry.width / 2, geometry.height)
+                new_size = (geometry.width / 2, geometry.height)
+
+            new_size = (new_size[0] - margin, new_size[1] - margin)
+
+            w.resize(new_size[0], new_size[1])
 
         GLib.timeout_add(40, move_window, self.window, geometry)
         GLib.timeout_add(80, resize_window, self.window, geometry)
