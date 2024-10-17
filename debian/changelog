@@ -1,9 +1,21 @@
-eta-ekran-karartma (0.1.1) UNRELEASED; urgency=medium
+eta-screen-cover (0.2.0) stable; urgency=medium
 
   [ Emin Fedar ]
   * feat: increase resize area, xfce window border fix
+  * feat: update logo with old one
+  * fix: resize margin on gnome
 
- -- Pardus <emin.fedar@pardus.org.tr>  Tue, 23 Jul 2024 10:57:44 +0300
+  [ Fatih Altun ]
+  * Update gitignore
+  * Update name as eta-screen-cover
+  * Add GLib prgname
+  * Add NON_UNIQUE flag
+  * Add translation structure
+  * Update compat
+  * Fix typo
+  * Add old package name relations
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 17 Oct 2024 18:28:20 +0300
 
 eta-ekran-karartma (0.1.0) ondokuz; urgency=medium
 
