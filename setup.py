@@ -16,7 +16,7 @@ def create_mo_files():
     for po in os.listdir(podir):
         if po.endswith(".po"):
             os.makedirs("{}/{}/LC_MESSAGES".format(podir, po.split(".po")[0]), exist_ok=True)
-            mo_file = "{}/{}/LC_MESSAGES/{}".format(podir, po.split(".po")[0], ".mo".format(APP_NAME))
+            mo_file = "{}/{}/LC_MESSAGES/{}".format(podir, po.split(".po")[0], "{}.mo".format(APP_NAME))
             msgfmt_cmd = 'msgfmt {} -o {}'.format(podir + "/" + po, mo_file)
             subprocess.call(msgfmt_cmd, shell=True)
             mo.append(("/usr/share/locale/" + po.split(".po")[0] + "/LC_MESSAGES",

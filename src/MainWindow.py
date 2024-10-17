@@ -10,7 +10,7 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import GLib, Gio, Gdk, Gtk  # noqa
 
-APPNAME = "pardus-mycomputer"
+APPNAME = "eta-screen-cover"
 TRANSLATIONS_PATH = "/usr/share/locale"
 
 locale.bindtextdomain(APPNAME, TRANSLATIONS_PATH)
