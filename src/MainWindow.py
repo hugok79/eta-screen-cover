@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import gi
+import locale
 import os
+from locale import gettext as _
+
+import gi
 
 gi.require_version("Gtk", "3.0")
 from gi.repository import GLib, Gio, Gdk, Gtk  # noqa
+
+APPNAME = "pardus-mycomputer"
+TRANSLATIONS_PATH = "/usr/share/locale"
+
+locale.bindtextdomain(APPNAME, TRANSLATIONS_PATH)
+locale.textdomain(APPNAME)
 
 CWD = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = "{}/../data".format(CWD)
@@ -26,7 +35,7 @@ class MainWindow:
         self.window.set_keep_above(True)
 
         self.headerbar = Gtk.HeaderBar(
-            custom_title=Gtk.Label(label="Eta Ekran Karartma")
+            custom_title=Gtk.Label(label=_("Eta Screen Cover"))
         )
         self.window.set_titlebar(self.headerbar)
         self.window.get_style_context().add_class("dark-background")
