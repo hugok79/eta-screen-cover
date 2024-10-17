@@ -1,3 +1,3 @@
-# eta-ekran-karartma
+# eta-screen-cover
 
-ETA için ekran karartma uygulaması. Python + GTK3
+An app for covering some part of the screen for educational purposes.
