@@ -14,5 +14,8 @@ Depends: ${misc:Depends},
          python3-gi,      
          gir1.2-glib-2.0,
          gir1.2-gtk-3.0
+Provides: eta-ekran-karartma, eta-black
+Conflicts: eta-ekran-karartma, eta-black
+Replaces: eta-ekran-karartma, eta-black
 Description: Screen cover app for ETA boards.
  This app covers spesific part of the screen for educational purposes.
