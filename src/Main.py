@@ -14,6 +14,7 @@ class Application(Gtk.Application):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, application_id="tr.org.pardus.eta-screen-cover", **kwargs)
         self.window = None
+        GLib.set_prgname("tr.org.pardus.eta-screen-cover")
 
     def do_activate(self):
         self.window = MainWindow(self)
