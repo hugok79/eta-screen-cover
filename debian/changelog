@@ -1,3 +1,18 @@
+eta-screen-cover (0.2.1) stable; urgency=medium
+
+  [ Fatih Altun ]
+  * Update README.md
+  * Add screenshot
+
+  [ Hugo Carvalho ]
+  * Add Portuguese translations
+  * Add Portuguese translations
+
+  [ Fatih Altun ]
+  * Update app icon
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 08 Jan 2025 16:47:56 +0300
+
 eta-screen-cover (0.2.0) stable; urgency=medium
 
   [ Emin Fedar ]
